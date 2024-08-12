@@ -99,6 +99,6 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     rm "export.lib-export"
 fi
 rm main.c
-rm main.obj
+# rm main.obj
 
 set +e
